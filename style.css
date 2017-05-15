@@ -14,7 +14,7 @@ header {
 
 }
 
-button:focus {
+button:focus, input:focus {
 	outline: 0;
 }
 
@@ -23,6 +23,7 @@ button:focus {
 	font-weight: 700;
 	color: #ED458B;
 }
+
 
 input[type="text"]{
 	width: 220px;
@@ -34,7 +35,7 @@ input[type="text"]{
 	font-family: Open-sans, sans-serif;
 	font-weight: 300;
 	font-size: 14px;
-	color: #fff;
+	color: #000;
 	display: block;
 }
 
