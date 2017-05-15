@@ -24,8 +24,7 @@ button:focus, input:focus {
 	color: #ED458B;
 }
 
-
-input[type="text"]{
+#guess {
 	width: 220px;
 	height: 5px;
 	padding: 10px;
@@ -38,6 +37,46 @@ input[type="text"]{
 	color: #000;
 	display: block;
 }
+
+#min, #max {
+	width: 50px;
+	height: 5px;
+	padding: 10px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-family: Open-sans, sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #000;
+	display: inline-block;
+}
+
+#min-max {
+	display: block;
+}
+.disabled {
+	background: #D0D2D3;
+	color: #fff;
+}
+
+#submit {
+	border-radius: 50px;
+	border: none;
+	background: #929497;
+	width: 80px;
+	height: 30px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	font-family: Open-sans, sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #fff;
+}
+
+#submit:hover {
+	background: #EB008B;
+	color: #fff;
+} 
 
 .interact {
 	border-radius: 50px;
